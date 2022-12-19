@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AmpasTheodorosPortofolioWithReact/static/css/main.aba99662.css",
+    "main.js": "/AmpasTheodorosPortofolioWithReact/static/js/main.95b3fe51.js",
+    "index.html": "/AmpasTheodorosPortofolioWithReact/index.html",
+    "main.aba99662.css.map": "/AmpasTheodorosPortofolioWithReact/static/css/main.aba99662.css.map",
+    "main.95b3fe51.js.map": "/AmpasTheodorosPortofolioWithReact/static/js/main.95b3fe51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aba99662.css",
+    "static/js/main.95b3fe51.js"
+  ]
+}
