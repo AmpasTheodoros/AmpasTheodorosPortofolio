@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '/AmpasTheodorosPortofolio',
         a_cName: 'nav-link',
         h2_cName: 'nav-link-label rubik-font',
         img_cName: 'nav-link-image',
@@ -9,7 +9,7 @@ export const MenuItems = [
     },
     {
         title: 'Work',
-        url: '/work',
+        url: '/AmpasTheodorosPortofolio/work',
         a_cName: 'nav-link',
         h2_cName: 'nav-link-label rubik-font',
         img_cName: 'nav-link-image',
@@ -25,7 +25,7 @@ export const MenuItems = [
     },
     {
         title: 'Contact',
-        url: '/contact',
+        url: '/AmpasTheodorosPortofolio/contact',
         a_cName: 'nav-link',
         h2_cName: 'nav-link-label rubik-font',
         img_cName: 'nav-link-image',
