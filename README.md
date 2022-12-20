@@ -7,8 +7,8 @@ This is the portfolio of Ampas Theodoros, a software developer and computer scie
 - [Experiences](#Experiences)
 - [Blog](#Blog)
 - [Contact](#Contact)
-- [Live Website](#Live Website)
-- [Future Features](#Future Features)
+- [Live Website](#Live-Website)
+- [Future Features](#Future-Features)
 - [Credits](#Credits)
 
 
