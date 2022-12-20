@@ -1,27 +1,21 @@
-import React, { useState } from 'react';
-import Button from './components/Navbar/Button';
-import Navbar from './components/Navbar/Navbar.js';
-import Wrapper from './components/Wrapper/Wrapper';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Home";
+import Contact from "./Contact";
+import Work from "./Work";
 
-function App() {
-  const [navOpen, setNavOpen] = useState(false);
-
-  const toggleNav = () => {
-    setNavOpen(!navOpen);
-  }
-
+const App = () => {
   return (
     <div className="App">
-      <body data-nav={navOpen}>
-        <main>
-          <Wrapper />
-        </main>
-        <Navbar />
-        <Button toggleNav={toggleNav} />
-      </body>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
