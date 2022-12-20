@@ -14,7 +14,7 @@ This is the portfolio of Ampas Theodoros, a software developer and computer scie
 
 ## Experiences
 
-A List and a small description of the projects and certificates.Also include links to the code and any relevant documentation or demo sites.
+A list and a small description of the projects and certificates.Also include links to the code and any relevant documentation or demo sites.
 
 ## Blog
 
@@ -26,7 +26,7 @@ Include all my contact information, such as my email address and LinkedIn profil
 
 ## Live Website
 
-You can the live website [here](https://ampastheodoros.github.io/AmpasTheodorosPortofolio/)
+You can see the website live [here](https://ampastheodoros.github.io/AmpasTheodorosPortofolio/)
 
 ## Future Features
 
