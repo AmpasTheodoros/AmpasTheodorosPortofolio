@@ -1,6 +1,11 @@
 # AmpasTheodorosPortofolio
 
-This is the portfolio of Ampas Theodoros, a software developer and computer science enthusiast. It showcases various projects and experiences.
+This is the portfolio of Ampas Theodoros, a computer science at Auth in Thessaloniki that love web development and meeting new people.
+Volunteer IT member at InfinityGreece and EESTEC Thessaloniki and also active member of ESN AUTH.
+
+In this portfolio, you will find a range of projects that demonstrate my technical abilities and creativity. From Web and Mobile applications to Blog and traveling, I have experience in a variety of domains. 
+
+I hope you enjoy exploring my portfolio and learning more about my work.
 
 ## Contents
 
