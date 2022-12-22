@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2 rem;
+}
+:root {
+    --container-color: #282A3A;
+    --second-color: rgb(182, 142, 113);
+    --text-color: #282A3A;
+    --bg-color: #fff;
+}
+
+::selection {
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+section {
+    padding: 3rem 0 2rem;
+}
+.containers {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+}
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+    background: var(--container-color);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 0;
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--bg-color);
+}
+.logo span {
+    color: var(--second-color);
+}
+
+.home {
+    width: 100%;
+    background: var(--container-color);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.home-text {
+    color: var(--bg-color);
+    text-align: center;
+}
+.home-title {
+    font-size: 4rem;
+    /* add 6 for desktop and 4 for android */
+}
+.home-title span {
+    color: var(--second-color);
+}
+.home-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
