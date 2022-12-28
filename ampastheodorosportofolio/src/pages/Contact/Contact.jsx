@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Button from './components/Navbar/Button.js';
-import Navbar from './components/Navbar/Navbar.js';
+import Button from '../../components/Navbar/Button.js';
+import Navbar from '../../components/Navbar/Navbar.js';
 
 function Work() {
   const [navOpen, setNavOpen] = useState(false);

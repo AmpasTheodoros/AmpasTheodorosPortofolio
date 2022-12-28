@@ -3,10 +3,6 @@ import { MenuItems } from './MenuItems';
 import './Navbar.css';
 
 class Navbar extends Component {
-    toggleNav = () => {
-        document.body.dataset.nav = document.body.dataset.nav === "true" ? "false" : "true";
-    }
-    
     render() {
         return (
             <nav >

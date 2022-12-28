@@ -7,9 +7,9 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
-      cover: 'https://via.placeholder.com/150',
+      cover: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
     {
       id: 2,
@@ -19,9 +19,9 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
-      cover: 'https://via.placeholder.com/150',
+      cover: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
     {
       id: 3,
@@ -31,9 +31,9 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
-      cover: 'https://via.placeholder.com/150',
+      cover: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
     {
       id: 4,
@@ -43,9 +43,9 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
-      cover: 'https://via.placeholder.com/150',
+      cover: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
     {
       id: 5,
@@ -55,9 +55,9 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
-      cover: 'https://via.placeholder.com/150',
+      cover: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
     {
       id: 6,
@@ -67,10 +67,10 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
       cover:
-        'https://via.placeholder.com/150',
+        'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
     {
       id: 7,
@@ -80,8 +80,8 @@ export const blogList = [
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       authorName: 'John Doe',
-      authorAvatar: 'https://via.placeholder.com/150',
+      authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'June 03, 2021',
-      cover: 'https://via.placeholder.com/150',
+      cover: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Post',
     },
   ];

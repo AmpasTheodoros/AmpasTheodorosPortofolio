@@ -1,44 +1,7 @@
-body {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2 rem;
-}
-:root {
-    --container-color: #282A3A;
-    --second-color: rgb(182, 142, 113);
-    --text-color: #282A3A;
-    --bg-color: #fff;
-}
-
-::selection {
-    color: var(--bg-color);
-    background: var(--second-color);
-}
-a {
-    text-decoration: none;
-}
-li {
-    list-style: none;
-}
-img {
-    width: 100%;
-}
-section {
-    padding: 3rem 0 2rem;
-}
-.containers {
+.container {
     max-width: 1068px;
     margin: auto;
     width: 100%;
-}
-header {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 200;
-    background: var(--container-color);
 }
 .nav {
     display: flex;
@@ -57,6 +20,7 @@ header {
 
 .home {
     width: 100%;
+    min-height: 440px;
     background: var(--container-color);
     display: grid;
     justify-content: center;
