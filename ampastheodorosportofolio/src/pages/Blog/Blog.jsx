@@ -1,48 +1,51 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
-import { blogList } from '../../config/data';
-import Chip from '../../components/common/Chip/Chip';
-import EmptyList from '../../components/common/EmptyList/EmptyList';
+import React from 'react';
+import Headers from '../../components/BlogSection/Header/Header';
+import Footer from '../../components/BlogSection/Footer/Footer';
+import { useParams } from 'react-router-dom';
+import { blogList } from '../../config/data.js';
+
 import './Blog.css';
-import { Link } from 'react-router-dom';
+
 
 const Blog = () => {
-    const { id } = useParams();
-    const [blog, setBlog] = useState(null);
+    const id = parseInt(useParams().id, 10);
+    const blogPost = blogList.find(blog => blog.id === id);
 
-    useEffect(() => {
-        let blog = blogList.find((blog) => blog.id === parseInt(id));
-        if (blog) {
-        setBlog(blog);
-        }
-    }, []);
-
-    return (
-        <>
-        <Link className='blog-goBack' to='/'>
-            <span> &#8592;</span> <span>Go Back</span>
-        </Link>
-        {blog ? (
-            <div className='blog-wrap'>
-            <header>
-                <p className='blog-date'>Published {blog.createdAt}</p>
-                <h1>{blog.title}</h1>
-                <div className='blog-subCategory'>
-                {blog.subCategory.map((category, i) => (
-                    <div key={i}>
-                    <Chip label={category} />
+    if (blogPost) {
+        return (
+            <div>
+                {/* Page header */}
+                <Headers />
+                {/* Post Content */}
+                <section className="post-header">
+                    <div className="header-content post-container">
+                        <a href="#" className="back-home">Back to Home</a>
+                        <h1 className="header-title">{blogPost.title}</h1>
+                        <img src="https://via.placeholder.com/1000/B68E71/282A3A/?text=Post" alt="placeholder" className="header-img" />
                     </div>
-                ))}
+                </section>
+                {/* Posts */}
+                <section className="post-content post-container">
+                    <h2 className="sub-heading">{blogPost.subHeader}</h2>
+                    <p className="post-text">{blogPost.description}</p>
+                </section>
+                <div className="share post-container">
+                    <span className="share-title">Share this article</span>
+                    <div className="social">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
                 </div>
-            </header>
-            <img src={blog.cover} alt='cover' />
-            <p className='blog-desc'>{blog.description}</p>
+                {/* Footer */}
+                <Footer />
             </div>
-        ) : (
-            <EmptyList />
-        )}
-        </>
-    );
+        );
+    } else {
+        return <div>Blog post not found</div>;
+    }
 };
 
 export default Blog;

@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.footer p {
+    font-size: 0.938rem;
+}
+.social {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+.social .fa {
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+.social .fa:hover {
+    color: var(--second-color);
+    transition: 0.3s all linear;
+}
+@media (max-width: 570px) {
+    .footer {
+        flex-direction: column;
+        row-gap: 1rem;
+        padding: 20px 0;
+        text-align: center;
+    }
+}

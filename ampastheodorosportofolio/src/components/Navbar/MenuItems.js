@@ -17,7 +17,7 @@ export const MenuItems = [
     },
     {
         title: 'Blog',
-        url: '/AmpasTheodorosPortofolio/blog',
+        url: '/AmpasTheodorosPortofolio/blogsection',
         a_cName: 'nav-link',
         h2_cName: 'nav-link-label rubik-font',
         img_cName: 'nav-link-image',

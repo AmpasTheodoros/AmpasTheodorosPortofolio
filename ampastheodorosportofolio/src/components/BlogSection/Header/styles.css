@@ -17,28 +17,19 @@
 .logo span {
     color: var(--second-color);
 }
-
-.home {
-    width: 100%;
-    min-height: 440px;
-    background: var(--container-color);
-    display: grid;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 1060px) {
+    .container {
+        margin: 0 auto;
+        width: 95%;
+    }
 }
-.home-text {
-    color: var(--bg-color);
-    text-align: center;
+@media (max-width: 800px) {
+    .nav {
+        padding: 14px 0;
+    }
 }
-.home-title {
-    font-size: 4rem;
-    /* add 6 for desktop and 4 for android */
+@media (max-width: 768px) {
+    .nav {
+        padding: 10px 0;
+    }
 }
-.home-title span {
-    color: var(--second-color);
-}
-.home-subtitle {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
-
