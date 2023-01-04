@@ -1,7 +1,7 @@
 import React from 'react';
 import Headers from '../../components/BlogSection/Header/Header';
 import Footer from '../../components/BlogSection/Footer/Footer';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { blogList } from '../../config/data.js';
 
 import './Blog.css';
@@ -19,7 +19,7 @@ const Blog = () => {
                 {/* Post Content */}
                 <section className="post-header">
                     <div className="header-content post-container">
-                        <a href="#" className="back-home">Back to Home</a>
+                        <Link to="#" className="back-home">Back to Home</Link>
                         <h1 className="header-title">{blogPost.title}</h1>
                         <img src="https://via.placeholder.com/1000/B68E71/282A3A/?text=Post" alt="placeholder" className="header-img" />
                     </div>
@@ -32,11 +32,11 @@ const Blog = () => {
                 <div className="share post-container">
                     <span className="share-title">Share this article</span>
                     <div className="social">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        <Link to="#"><i class="fa fa-facebook" aria-hidden="true"></i></Link>
+                        <Link to="#"><i class="fa fa-twitter" aria-hidden="true"></i></Link>
+                        <Link to="#"><i class="fa fa-github" aria-hidden="true"></i></Link>
+                        <Link to="#"><i class="fa fa-instagram" aria-hidden="true"></i></Link>
+                        <Link to="#"><i class="fa fa-linkedin" aria-hidden="true"></i></Link>
                     </div>
                 </div>
                 {/* Footer */}

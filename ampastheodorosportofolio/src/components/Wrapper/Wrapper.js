@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './Wrapper.css';
+import { Link } from 'react-router-dom';
 
 const Wrapper = () => {
     useEffect(() => {
@@ -46,7 +47,7 @@ const Wrapper = () => {
             <div className="shape"></div>
             <div className="shape"></div>
             <div className="shape"></div>
-            <a href="https://github.com/AmpasTheodoros">Ampas Theodoros</a>
+            <Link to="https://github.com/AmpasTheodoros">Ampas Theodoros</Link>
         </div>
     );
 };

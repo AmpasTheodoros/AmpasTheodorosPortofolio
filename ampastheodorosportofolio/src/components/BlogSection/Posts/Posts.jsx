@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './styles.css';
 import './script';
 import { blogList } from '../../../config/data.js';
+import { Link } from "react-router-dom";
 
 class Posts extends Component {
         render () {
@@ -13,9 +14,9 @@ class Posts extends Component {
                                                 <div className={'post-box ' + item.category}>
                                                         <img src={item.cover} alt="placeholder" className="post-img" />
                                                         <h2 className="category">{item.category}</h2>
-                                                        <a href={"/AmpasTheodorosPortofolio/blogs/" + item.id} className="post-title">
+                                                        <Link to={"/AmpasTheodorosPortofolio/blogs/" + item.id} className="post-title">
                                                                 {item.title}
-                                                        </a>
+                                                        </Link>
                                                         <span className="post-date">{item.createdAt}</span>
                                                         <p className="post-description">{item.description}</p>
                                                         <div className="profile">
