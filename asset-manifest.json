@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AmpasTheodorosPortofolio/static/css/main.5b94d734.css",
-    "main.js": "/AmpasTheodorosPortofolio/static/js/main.784d4f83.js",
+    "main.js": "/AmpasTheodorosPortofolio/static/js/main.16cf32e2.js",
     "index.html": "/AmpasTheodorosPortofolio/index.html",
     "main.5b94d734.css.map": "/AmpasTheodorosPortofolio/static/css/main.5b94d734.css.map",
-    "main.784d4f83.js.map": "/AmpasTheodorosPortofolio/static/js/main.784d4f83.js.map"
+    "main.16cf32e2.js.map": "/AmpasTheodorosPortofolio/static/js/main.16cf32e2.js.map"
   },
   "entrypoints": [
     "static/css/main.5b94d734.css",
-    "static/js/main.784d4f83.js"
+    "static/js/main.16cf32e2.js"
   ]
 }
