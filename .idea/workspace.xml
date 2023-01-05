@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9811d914-7433-4873-904e-e29c89012305" name="Changes" comment="" />
+    <list default="true" id="9811d914-7433-4873-904e-e29c89012305" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/BlogSection/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/BlogSection/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/BlogSection/Header/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/BlogSection/Header/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/Navbar/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/Navbar/MenuItems.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/Navbar/Navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/Navbar/Navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/Wrapper/Wrapper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/components/Wrapper/Wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/config/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/ampastheodorosportofolio/src/config/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/pages/Contact/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ampastheodorosportofolio/src/pages/Contact/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ampastheodorosportofolio/src/pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ampastheodorosportofolio/src/pages/Home/Home.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,15 +31,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,6 +49,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671584630908</updated>
       <workItem from="1671584633025" duration="555000" />
+      <workItem from="1672920335727" duration="17000" />
     </task>
     <servers />
   </component>

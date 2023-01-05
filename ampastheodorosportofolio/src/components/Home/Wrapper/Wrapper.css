@@ -37,9 +37,9 @@
     color: black;
 }
 /* #wrapper >.shape:hover {
-      min-height:100%;
-      background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(https://picsum.photos/id/1043/800/600);
-      background-size:cover;
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(https://picsum.photos/id/1043/800/600);
+    background-size:cover;
 } */
 
 #wrapper > .shape:nth-child(1) {

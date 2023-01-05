@@ -40,12 +40,12 @@ export const blogList = [
     },
     {
       id: 4,
-      title: 'ADVENTURE IN YOU',
+      title: 'Youth Exchange in Romania',
       category: 'travel',
-      subHeader: 'Maximize Your Productivity with These Must-Have CSS Utilities',
-      subCategory: ['adrenaline', 'stay-fit', 'lifestyle'],
+      subHeader: 'A Life-Changing Experience: My 10 Days in Romania on an Ecology Project',
+      subCategory: ['Youth Exchange', 'Youth Exchange', 'Erasmus+'],
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "It was a cold and drizzly morning when I boarded the plane to Romania for a 10-day youth exchange on a project about ecology. As I settled into my seat, I couldn't help but feel a mix of excitement and nerves. I had never been to Romania before, and I didn't know anyone on the trip. But as the plane lifted off the ground, I felt a sense of adventure wash over me.When we arrived in Romania, we were met by a group of friendly volunteers who would be hosting us during our stay. They took us to a cozy guesthouse in the countryside, where we would be staying for the next week.Over the next few days, we participated in a variety of activities and workshops focused on environmental sustainability and conservation. We learned about the importance of protecting natural resources, reducing waste, and preserving biodiversity. We also had the opportunity to visit a local school and teach the about how important is ecology for the enviroment.In addition to the educational activities, we also had the chance to explore the local culture and make new friends. We visited historical landmarks and museums, sampled local cuisine, and participated in traditional folk dancing and music.As the trip came to a close, I felt a sense of accomplishment and gratitude. I had learned so much about the environment and sustainability, and I had made some lasting friendships. As I boarded the plane back home, I couldn't wait to share my experiences with others and continue working to protect the planet.",
       authorName: 'Ampas Theodoros',
       authorAvatar: 'https://via.placeholder.com/1000/B68E71/282A3A/?text=Face',
       createdAt: 'January 03, 2022',

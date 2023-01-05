@@ -2,12 +2,15 @@
     max-width: 1068px;
     margin: auto;
     width: 100%;
+    z-index: 100;
+
 }
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px 0;
+    z-index: 100;
 }
 .logo {
     font-size: 2.5rem;
@@ -17,6 +20,17 @@
 .logo span {
     color: var(--second-color);
 }
+
+.logo-home {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    z-index: 100;
+}
+.logo-home span {
+    color: var(--second-color);
+}
+
 @media (max-width: 1060px) {
     .container {
         margin: 0 auto;
